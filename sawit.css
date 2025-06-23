@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #a80000;
+    color: white;
+}
+
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+nav .nav-link {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.actions input {
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+}
+
+.hero {
+    background-image: url('ip.jpg');  
+    background-size: cover;            
+    background-position: center;       
+    background-repeat: no-repeat;      
+    height: 80vh;                    
+    position: relative;
+}
+
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding-left: 50px;
+}
+
+.sub {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #c00000;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
